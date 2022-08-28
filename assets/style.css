@@ -50,6 +50,7 @@ header {
   font-size: 40px;
   font-weight: 600;
   letter-spacing: 1px;
+  transition: color 0.3s linear 0.1s;
 }
 
 .logo a:hover{
@@ -65,6 +66,7 @@ nav li a{
   margin: 0 10px;
   font-size: 15px;
   font-weight: 600;
+  transition: color 0.4s linear 0.1s;
 }
 
 nav li a:hover{
@@ -156,9 +158,11 @@ section {
   font-size: 55px;
   text-align: center;
   color: #354F52;
+  transition: color 0.5s ease-out;
 }
 
 .service-logo:hover {
+  transform: scale(1.1);
   color: #648f6d;
 }
 
@@ -222,6 +226,7 @@ section {
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
+  transition: 1s ease-out;
 }
 
 
@@ -241,6 +246,7 @@ section {
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
+  transition: 1s ease-out;
 }
 
 .acindar-logo:hover {
@@ -259,6 +265,7 @@ section {
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
+  transition: 1s ease-out;
 }
 
 .bayer-logo:hover {
@@ -277,6 +284,7 @@ section {
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
+  transition: 1s ease-out;
 }
 
 .femsa-logo:hover {
@@ -295,6 +303,7 @@ section {
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
+  transition: 1s ease-out;
 }
 
 .nestle-logo:hover {
@@ -313,6 +322,7 @@ section {
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
+  transition: 1s ease-out;
 }
 
 .cargill-logo:hover {
@@ -331,6 +341,7 @@ section {
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
+  transition: 1s ease-out;
 }
 
 .panam-logo:hover {
