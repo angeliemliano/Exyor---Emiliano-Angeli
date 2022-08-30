@@ -1,81 +1,66 @@
-body {
-  font-family: "Open Sans", sans-serif;
-  color: #293241;
-  margin: 0px;
+* {
+  margin: 0;
   padding: 0;
-
 }
 
-a {
-  color: #354F52;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #52796F;
-  text-decoration: none;
-}
-
-h1,h2,h3,h4,h5,h6 {
+h1, h3, h4, h5, h6 {
   font-family: 'Bebas Neue', cursive;
 }
 
-p {
-  font-size: 15px;
-  color: #354F52 ;
+h2 {
+  color: #2D6A4F;
+  font-family: 'Bebas Neue', cursive;
+}
+
+a {
   font-family: "Open Sans", sans-serif;
 }
 
-/* _____  HEADER _____*/
-
-#nav {
-  background-color: #CAD2C5;
-  padding: 1vh 10%;
-}
-
-.exyor-logo {
-   font-family: 'Bebas Neue', cursive;
-   font-size: 4vh;
-   color: #354F52;
-   font-weight: 600;
-   text-decoration: none;
-  transition: color 0.5s ease-out;
-}
-
-.exyor-logo:hover {
-   color: #4d7175;
-   transform: scale(1.01);
-}
-
-.navbar-nav .nav-link {
-  margin: 0 10px 0 10px;
-}
-
-.navbar-nav .nav-link.active {
-    font-weight: 600;
-}
-
-/* _____ SECTIONS _____ */
-
 section {
-  padding: 2% 10%;
-  margin-right: auto;
-  margin-left: auto;
+  padding: 80px 0;
+  overflow: hidden;
 }
 
-.section-title h2 {
-  font-size: 35px;
-  font-weight: bold;
-  color: #354F52;
+.section-light {
+  background-color: #D8F3DC;
+}
+
+/* --- NAVBAR --- */
+.custom-navbar {
+  background-color: #D8F3DC;
+}
+
+.custom-logo {
+  position: relative;
+  margin-top: 1vh;
+  color: #2D6A4F;
+  text-decoration: none;
+  transition-duration: 800ms;
+}
+
+.custom-logo:hover {
+  color: #40916C;
+}
+
+.custom-toggler.navbar-toggler {
+  border: none;
+}
+
+.nav-item > a {
+  color: #2D6A4F;
+  font-size: 14px;
+}
+
+.nav-item > a:hover {
+  color: #40916C;
+  border-bottom: 2px solid #40916C;
 }
 
 
-/* _____ INDEX _____ */
-/*hero*/
+/* --- HERO --- */
 
 #hero {
-  max-width: 100%;
-  height: 90vh;
+  height: 100vh;
   background: url("../img/hero-bg.jpg");
   background-attachment: fixed;
   background-size: cover;
@@ -85,140 +70,29 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100% ;
+  height: 100%;
 }
 
 #hero h1 {
   font-size: 60px;
   font-weight: 700;
-  color: #84A98C;
-}
-
-/* services */
-.grid-service-container {
-  display: grid;
-  grid-template-areas:
-  "titulo1 titulo2 titulo3"
-  "servicio1 servicio2 servicio3";
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 30px;
-}
-
-#titulo1 {
-  grid-area: titulo1;
-}
-
-#titulo2 {
-  grid-area: titulo2;
-}
-
-#titulo3 {
-  grid-area: titulo3;
-}
-
-#servicio1 {
-  grid-area: servicio1;
-}
-
-#servicio2 {
-  grid-area: servicio2;
-}
-
-#servicio3 {
-  grid-area: servicio3;
-}
-
-.grid-service-title h2 {
-  text-align: center;
-  font-weight: 400;
-  color: #354F52;
-}
-
-.service-logo {
-  font-size: 55px;
-  text-align: center;
-  color: #354F52;
-  transition: color 0.5s ease-out;
-}
-
-.service-logo:hover {
-  transform: scale(1.1);
-  color: #648f6d;
-}
-
-.grid-service-content {
-  height: auto;
-  text-align: justify;
-}
-
-/*clients*/
-.clients-wrapper {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: stretch;
-  gap: 2%;
-}
-
-.client-testimonial {
-  width: 50%;
-  height: auto;
-}
-
-.client-photo {
-  width: 100px;
-  height: 100px;
-  border: 2px solid #354F52;
-  border-radius: 50%;
-  /*background: url("../img/client-men.png");*/
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
-.client-photo2 {
-  width: 100px;
-  height: 100px;
-  border: 2px solid #354F52;
-  border-radius: 50%;
-  /*background: url("../img/client-women.png");*/
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.client-name {
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 0;
-}
-
-.client-job {
-  font-size: 15px;
-  font-style: italic;
-  margin-top: 0;
-}
-
-.vw-logo {
-  width: 15%;
-  height: 16vh;
-  background: url("../img/brands/vw-logo.png");
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  transition: 1s ease-out;
+  color: #95D5B2;
 }
 
 
-.vw-logo:hover {
-  width: 15%;
-  height: 16vh;
-  background: url("../img/brands/vw-logo-after.png");
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
+/* --- SERVICES ---  */
+
+.custom-icon {
+  color: #2D6A4F;
 }
+
+.custom-icon:hover {
+  transform: scale(1.2);
+  transition-duration: 800ms;
+  color: #40916C;
+}
+
+/* --- CLIENTS --- */
 
 .acindar-logo {
   width: 15%;
@@ -231,8 +105,6 @@ section {
 }
 
 .acindar-logo:hover {
-  width: 15%;
-  height: 16vh;
   background: url("../img/brands/acindar-logo-after.png");
   background-position: center center;
   background-size: contain;
@@ -250,8 +122,6 @@ section {
 }
 
 .bayer-logo:hover {
-  width: 15%;
-  height: 16vh;
   background: url("../img/brands/bayer-logo-after.png");
   background-position: center center;
   background-size: contain;
@@ -269,8 +139,6 @@ section {
 }
 
 .femsa-logo:hover {
-  width: 15%;
-  height: 16vh;
   background: url("../img/brands/femsa-logo-after.png");
   background-position: center center;
   background-size: contain;
@@ -288,8 +156,6 @@ section {
 }
 
 .nestle-logo:hover {
-  width: 15%;
-  height: 16vh;
   background: url("../img/brands/nestle-logo-after.png");
   background-position: center center;
   background-size: contain;
@@ -297,8 +163,6 @@ section {
 }
 
 .cargill-logo {
-  width: 15%;
-  height: 16vh;
   background: url("../img/brands/cargill-logo.png");
   background-position: center center;
   background-size: contain;
@@ -307,8 +171,6 @@ section {
 }
 
 .cargill-logo:hover {
-  width: 15%;
-  height: 16vh;
   background: url("../img/brands/cargill-logo-after.png");
   background-position: center center;
   background-size: contain;
@@ -316,8 +178,6 @@ section {
 }
 
 .panam-logo {
-  width: 15%;
-  height: 16vh;
   background: url("../img/brands/panam-logo.png");
   background-position: center center;
   background-size: contain;
@@ -326,8 +186,6 @@ section {
 }
 
 .panam-logo:hover {
-  width: 15%;
-  height: 16vh;
   background: url("../img/brands/panam-logo-after.png");
   background-position: center center;
   background-size: contain;
@@ -335,202 +193,3 @@ section {
 }
 
 
-
-
-/* _____ CONTACT _____ */
-
-#contact-hero {
-  max-width: 100%;
-  height: 45vh;
-  background: url("../img/employees.png");
-  background-attachment: fixed;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-#contact .section-title h2 {
-  margin-bottom: 0;
-}
-
-#contact .section-title p {
-  margin-top: 0;
-  margin-bottom: 2%;
-  color: #5e7c8c;
-  font-size: 16px;
-}
-
-.exyor-info-wrapper {
-  display: flex;
-}
-
-.exyor-info {
-  width: 50%;
-  margin-bottom: 2%;
-  text-align: center;
-}
-
-.exyor-info i{
-  font-size: 2vh;
-  color: #84A98C;
-  width: 4%;
-}
-
-.exyor-info span {
-  margin-left: 1%;
-  font-size: 15px;
-  font-weight: 600;
-  white-space: nowrap;
-}
-
-iframe {
-  width: 100%;
-  height: 50vh;
-  margin-top: 10vh;
-}
-
-/* _____ ABOUT _____ */
-
-#about-hero {
-  max-width: 100%;
-  height: 45vh;
-  background: url("../img/about.png");
-  background-attachment: fixed;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.timeline {
-  border-left: 4px solid;
-    border-image: 
-    linear-gradient(to top, #84A98C, #354F52   ) 1 100%;
-}
-
-.timeline-content {
-  margin-left: 2%;
-  width: 50%;
-}
-
-/* _____ FOOTER _____ */
-
-#footer {
-  background: #354F52;
-  color: #E0FBFC;
-  font-size: 12px;
-  padding-right: 10%;
-  padding-left: 10%;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-#footer h3 {
-  font-size: 36px;
-  font-weight: 700;
-  color: #E0FBFC;
-  position: relative;
-  font-family: "Poppins", sans-serif;
-  padding-top: 25px;
-  margin: 0 0 15px 0;
-}
-
-#footer p {
-  font-size: 14px;
-  font-style: italic;
-  padding-bottom: 20px;
-  color: #CAD2C5;
-}
-
-#footer .social-media {
-  padding-bottom: 40px;
-}
-
-#footer .social-media a {
-  font-size: 15px;
-  display: inline-block;
-  background: #52796F;
-  color: #E0FBFC;
-  margin-right: 5px;
-  border-radius: 50%;
-  text-align: center;
-  width: 40px;
-  height: 40px;  
-}
-
-#footer .social-media a:hover {
-  background: #84A98C;
-  color: #E0FBFC;
-  text-decoration: none;
-}
-
-#footer .social-media i {
-  position: relative;
-  top: 25%;
-}
-
-@media (max-width: 758px) {
-.grid-service-container {
-  display: grid;
-  grid-template-areas:
-  "titulo1"
-  "servicio1"
-  "titulo2"
-  "servicio2"
-  "titulo3"
-  "servicio3"
-  ;
-  grid-template-rows: repeat(6, 1fr);
-  grid-template-columns: repeat(1, 1fr);
-  column-gap: 30px;
-}
-
-#titulo1 {
-  grid-area: titulo1;
-}
-
-#titulo2 {
-  grid-area: titulo2;
-}
-
-#titulo3 {
-  grid-area: titulo3;
-}
-
-#servicio1 {
-  grid-area: servicio1;
-}
-
-#servicio2 {
-  grid-area: servicio2;
-}
-
-#servicio3 {
-  grid-area: servicio3;
-}
-
-.cargill-logo {
-  display: none;
-}
-
-.panam-logo {
-  display: none;
-}
-
-.vw-logo {
-  display: none;
-}
-
-.exyor-info-wrapper {
-  display: block;
-  text-align: left;
-  }
-
-.exyor-info span {
-  font-size: 11px;
-}
-
-.exyor-info a {
-  font-size: 11px;
-}
-
-}
