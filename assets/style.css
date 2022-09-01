@@ -260,9 +260,6 @@ p {
   background-repeat: no-repeat;
 }
 
-
-
-
 /* --- PORTFOLIO --- */
 
 .custom-mt {
@@ -276,7 +273,7 @@ p {
 }
 
 .modal.show .modal-dialog{
-  width: 50%;
+  width: 90vh;
 }
 
 
