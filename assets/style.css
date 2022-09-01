@@ -420,5 +420,15 @@ footer {
     display: none;
   }
 
+  .custom-gallery:hover {
+  filter: blur(0);
+  cursor: pointer;
+  }
+
+  .custom-gallery {
+    pointer-events: none;
+  }
+
+
 }
 
