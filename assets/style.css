@@ -21,6 +21,10 @@ section {
   overflow: hidden;
 }
 
+p {
+  color: #464646;
+}
+
 .section-light {
   background-color: #D8F3DC;
 }
@@ -92,7 +96,18 @@ section {
   color: #40916C;
 }
 
+.border-custom {
+  border: 2px solid lightcoral;
+  height: 10vh;
+}
+
 /* --- CLIENTS --- */
+
+.rounded-circle {
+  width: 100px;
+  border: 2px solid #2D6A4F;
+  border-radius: 25%;
+}
 
 .acindar-logo {
   width: 15%;
@@ -187,6 +202,51 @@ section {
 
 .panam-logo:hover {
   background: url("../img/brands/panam-logo-after.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.mondelez-logo {
+  background: url("../img/brands/mondelez-logo.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 1s ease-out;
+}
+
+.mondelez-logo:hover {
+  background: url("../img/brands/mondelez-logo-after.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.clorox-logo {
+  background: url("../img/brands/clorox-logo.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 1s ease-out;
+}
+
+.clorox-logo:hover {
+  background: url("../img/brands/clorox-logo-after.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.symrise-logo {
+  background: url("../img/brands/symrise-logo.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 1s ease-out;
+}
+
+.symrise-logo:hover {
+  background: url("../img/brands/symrise-logo-after.png");
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
