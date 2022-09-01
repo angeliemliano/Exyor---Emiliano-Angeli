@@ -292,10 +292,24 @@ iframe {
   width: 50%;
 }
 
-
 .modal-body img {
    max-width: 100%;
 }
+
+/* revisar estos important*/
+.nav-pills .nav-link.active {
+  background: #40916C !important;
+  border: none import !important;
+  transition: 800ms;
+}
+
+.nav-link:hover {
+  border: none !important;
+  transform: scale(1.05);
+  transition: 800ms;
+}
+
+
 
 
 /* --- ABOUT --- */
