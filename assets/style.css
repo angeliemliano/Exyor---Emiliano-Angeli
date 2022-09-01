@@ -25,6 +25,12 @@ p {
   color: #464646;
 }
 
+iframe {
+  width: 100%;
+  height: 50vh;
+  margin-top: 10vh;
+}
+
 .section-light {
   background-color: #D8F3DC;
 }
