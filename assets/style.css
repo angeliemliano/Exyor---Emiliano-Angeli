@@ -374,6 +374,16 @@ iframe {
   margin-top: 6vh !important;
 }
 
+/* --- CONTACT --- */
+.contact-icon {
+  color: #2D6A4F;
+  font-size: 4vh;
+}
+
+.mail-info {
+  text-decoration: none;
+  color: black;
+}
 
 /* --- FOOTER --- */
 footer {
