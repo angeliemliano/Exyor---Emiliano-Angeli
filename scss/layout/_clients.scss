@@ -12,30 +12,13 @@
   background-size: contain;
   background-repeat: no-repeat;
   transition: 1s ease-out;
-}
 
-.acindar-logo:hover {
-  background: url("../img/brands/acindar-logo-after.png");
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.bayer-logo {
-  width: 15%;
-  height: 16vh;
-  background: url("../img/brands/bayer-logo.png");
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  transition: 1s ease-out;
-}
-
-.bayer-logo:hover {
-  background: url("../img/brands/bayer-logo-after.png");
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  &:hover {
+    background: url("../img/brands/acindar-logo-after.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
 
 .femsa-logo {
@@ -46,14 +29,15 @@
   background-size: contain;
   background-repeat: no-repeat;
   transition: 1s ease-out;
+
+  &:hover {
+    background: url("../img/brands/femsa-logo-after.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
 
-.femsa-logo:hover {
-  background: url("../img/brands/femsa-logo-after.png");
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
 
 .nestle-logo {
   width: 15%;
@@ -63,14 +47,15 @@
   background-size: contain;
   background-repeat: no-repeat;
   transition: 1s ease-out;
+
+  &:hover {
+    background: url("../img/brands/nestle-logo-after.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
 
-.nestle-logo:hover {
-  background: url("../img/brands/nestle-logo-after.png");
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
 
 .cargill-logo {
   background: url("../img/brands/cargill-logo.png");
@@ -78,13 +63,13 @@
   background-size: contain;
   background-repeat: no-repeat;
   transition: 1s ease-out;
-}
 
-.cargill-logo:hover {
-  background: url("../img/brands/cargill-logo-after.png");
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  &:hover {
+    background: url("../img/brands/cargill-logo-after.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
 
 .panam-logo {
@@ -93,13 +78,13 @@
   background-size: contain;
   background-repeat: no-repeat;
   transition: 1s ease-out;
-}
 
-.panam-logo:hover {
-  background: url("../img/brands/panam-logo-after.png");
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  &:hover {
+    background: url("../img/brands/panam-logo-after.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
 
 .mondelez-logo {
@@ -108,13 +93,13 @@
   background-size: contain;
   background-repeat: no-repeat;
   transition: 1s ease-out;
-}
 
-.mondelez-logo:hover {
-  background: url("../img/brands/mondelez-logo-after.png");
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  &:hover {
+    background: url("../img/brands/mondelez-logo-after.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
 
 .clorox-logo {
@@ -123,13 +108,13 @@
   background-size: contain;
   background-repeat: no-repeat;
   transition: 1s ease-out;
-}
 
-.clorox-logo:hover {
-  background: url("../img/brands/clorox-logo-after.png");
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  &:hover {
+    background: url("../img/brands/clorox-logo-after.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
 
 .symrise-logo {
@@ -138,12 +123,12 @@
   background-size: contain;
   background-repeat: no-repeat;
   transition: 1s ease-out;
-}
 
-.symrise-logo:hover {
-  background: url("../img/brands/symrise-logo-after.png");
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  &:hover {
+    background: url("../img/brands/symrise-logo-after.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
 
