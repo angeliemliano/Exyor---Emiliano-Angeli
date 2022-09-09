@@ -54,6 +54,10 @@ iframe {
   margin-top: 10vh;
 }
 
+.section-light {
+  background-color: #D8F3DC;
+}
+
 .custom-navbar {
   background-color: #D8F3DC;
 }
@@ -176,7 +180,7 @@ footer {
 .acindar-logo {
   width: 15%;
   height: 16vh;
-  background: url("../../img/brands/acindar-logo.png");
+  background: url("../img/brands/acindar-logo.png");
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -184,7 +188,7 @@ footer {
 }
 
 .acindar-logo:hover {
-  background: url("../../img/brands/acindar-logo-after.png");
+  background: url("../img/brands/acindar-logo-after.png");
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -193,7 +197,7 @@ footer {
 .bayer-logo {
   width: 15%;
   height: 16vh;
-  background: url("../../img/brands/bayer-logo.png");
+  background: url("../img/brands/bayer-logo.png");
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -201,7 +205,7 @@ footer {
 }
 
 .bayer-logo:hover {
-  background: url("../../img/brands/bayer-logo-after.png");
+  background: url("../img/brands/bayer-logo-after.png");
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -210,7 +214,7 @@ footer {
 .femsa-logo {
   width: 15%;
   height: 16vh;
-  background: url("../../img/brands/femsa-logo.png");
+  background: url("../img/brands/femsa-logo.png");
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -218,7 +222,7 @@ footer {
 }
 
 .femsa-logo:hover {
-  background: url("../../img/brands/femsa-logo-after.png");
+  background: url("../img/brands/femsa-logo-after.png");
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -227,7 +231,7 @@ footer {
 .nestle-logo {
   width: 15%;
   height: 16vh;
-  background: url("../../img/brands/nestle-logo.png");
+  background: url("../img/brands/nestle-logo.png");
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -235,14 +239,14 @@ footer {
 }
 
 .nestle-logo:hover {
-  background: url("../../img/brands/nestle-logo-after.png");
+  background: url("../img/brands/nestle-logo-after.png");
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .cargill-logo {
-  background: url("../../img/brands/cargill-logo.png");
+  background: url("../img/brands/cargill-logo.png");
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -250,14 +254,14 @@ footer {
 }
 
 .cargill-logo:hover {
-  background: url("../../img/brands/cargill-logo-after.png");
+  background: url("../img/brands/cargill-logo-after.png");
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .panam-logo {
-  background: url("../../img/brands/panam-logo.png");
+  background: url("../img/brands/panam-logo.png");
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -265,14 +269,14 @@ footer {
 }
 
 .panam-logo:hover {
-  background: url("../../img/brands/panam-logo-after.png");
+  background: url("../img/brands/panam-logo-after.png");
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .mondelez-logo {
-  background: url("../../img/brands/mondelez-logo.png");
+  background: url("../img/brands/mondelez-logo.png");
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -280,14 +284,14 @@ footer {
 }
 
 .mondelez-logo:hover {
-  background: url("../../img/brands/mondelez-logo-after.png");
+  background: url("../img/brands/mondelez-logo-after.png");
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .clorox-logo {
-  background: url("../../img/brands/clorox-logo.png");
+  background: url("../img/brands/clorox-logo.png");
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -295,14 +299,14 @@ footer {
 }
 
 .clorox-logo:hover {
-  background: url("../../img/brands/clorox-logo-after.png");
+  background: url("../img/brands/clorox-logo-after.png");
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .symrise-logo {
-  background: url("../../img/brands/symrise-logo.png");
+  background: url("../img/brands/symrise-logo.png");
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -310,10 +314,20 @@ footer {
 }
 
 .symrise-logo:hover {
-  background: url("../../img/brands/symrise-logo-after.png");
+  background: url("../img/brands/symrise-logo-after.png");
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.custom-icon {
+  color: #2D6A4F;
+}
+
+.custom-icon:hover {
+  transform: scale(1.2);
+  transition-duration: 800ms;
+  color: #40916C;
 }
 
 .contact-icon {
