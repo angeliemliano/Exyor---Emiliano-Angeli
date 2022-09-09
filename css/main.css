@@ -145,7 +145,6 @@ footer {
   text-decoration: none;
   transition: 800ms;
 }
-
 .custom-logo-footer:hover {
   color: antiquewhite;
   text-decoration: none;
@@ -164,7 +163,6 @@ footer {
   color: #b6dfcc;
   transition: 800ms;
 }
-
 .custom-social-media:hover {
   transform: scale(1.1);
   color: antiquewhite;
