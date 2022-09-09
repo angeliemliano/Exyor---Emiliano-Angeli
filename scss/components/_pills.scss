@@ -1,0 +1,11 @@
+.nav-pills .nav-link.active {
+  background: #40916C;
+  border: none;
+  transition: 800ms;
+}
+
+.nav-link:hover {
+  border: none !important;
+  transform: scale(1.05);
+  transition: 800ms;
+}

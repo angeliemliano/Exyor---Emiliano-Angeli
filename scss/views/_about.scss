@@ -1,0 +1,46 @@
+.timeline-list {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+/*linea*/
+.timeline-list:before {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 100%;
+  background: rgb(132,169,140);
+  background: linear-gradient(0deg, rgba(132,169,140,1) 18%, rgba(167,193,172,1) 57%, rgba(201,217,205,1) 87%);
+  left: 5%;
+}
+
+.timeline-list li {
+  position: relative;
+  display: table;
+}
+
+.timeline-list .timeline_content {
+  position: relative;
+  left: 8%;
+  width: 80%;
+  color: #333;
+  padding: 1vh 0 1vh 0;
+  text-align: left;
+}
+
+.year {
+  font-size: 16px;
+  font-weight: 600;
+  color: #40916C;
+}
+
+.custom-valores li {
+  text-align: left;
+  list-style: none;
+  color: #40916C;
+}
+
+.custom-h1-subtitle {
+  font-size: 3vh;
+}

@@ -1,0 +1,413 @@
+.btn-primary {
+  background-color: #40916C;
+  border: none;
+  transition: 600ms;
+}
+
+.btn-primary:hover {
+  background-color: #2D6A4F;
+  border: none;
+}
+
+.nav-pills .nav-link.active {
+  background: #40916C;
+  border: none;
+  transition: 800ms;
+}
+
+.nav-link:hover {
+  border: none !important;
+  transform: scale(1.05);
+  transition: 800ms;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h3, h4, h5, h6 {
+  font-family: "Bebas Neue", cursive;
+}
+
+h2 {
+  color: #2D6A4F;
+  font-family: "Bebas Neue", cursive;
+}
+
+a {
+  font-family: "Open Sans", sans-serif;
+}
+
+section {
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+p {
+  color: #464646;
+}
+
+iframe {
+  width: 100%;
+  height: 50vh;
+  margin-top: 10vh;
+}
+
+.custom-navbar {
+  background-color: #D8F3DC;
+}
+
+.custom-logo {
+  position: relative;
+  margin-top: 1vh;
+  color: #2D6A4F;
+  text-decoration: none;
+  transition-duration: 800ms;
+}
+
+.custom-logo:hover {
+  color: #40916C;
+}
+
+.custom-toggler.navbar-toggler {
+  border: none;
+}
+
+.nav-item > a {
+  color: #2D6A4F;
+  font-size: 14px;
+}
+
+.nav-item > a:hover {
+  color: #40916C;
+  border-bottom: 2px solid #40916C;
+}
+
+#hero {
+  height: 100vh;
+  background: url("../img/hero-bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.hero-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#hero h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #95D5B2;
+}
+
+#hero-rest {
+  height: 40vh;
+  background: rgb(64, 145, 108);
+  background: linear-gradient(90deg, rgb(64, 145, 108) 18%, rgb(101, 187, 147) 57%, rgb(141, 205, 176) 87%);
+}
+
+.hero-text-alternative {
+  position: relative;
+  top: 5vh;
+  font-size: 8vh;
+  color: white;
+}
+
+@media (max-width: 992px) {
+  #clients-logos {
+    display: none;
+  }
+  .custom-service-image {
+    display: none;
+  }
+  .custom-gallery:hover {
+    filter: blur(0);
+    cursor: pointer;
+  }
+  .custom-gallery {
+    pointer-events: none;
+  }
+}
+footer {
+  background: #214e33;
+}
+
+.custom-logo-footer {
+  color: white;
+  text-decoration: none;
+  transition: 800ms;
+}
+
+.custom-logo-footer:hover {
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+.custom-text-footer {
+  color: #C2C2C2;
+  font-size: 1.5vh;
+  padding-right: 10%;
+}
+
+.custom-social-media {
+  position: relative;
+  top: 3vh;
+  font-size: 3vh;
+  color: #b6dfcc;
+  transition: 800ms;
+}
+
+.custom-social-media:hover {
+  transform: scale(1.1);
+  color: antiquewhite;
+  cursor: pointer;
+}
+
+.rounded-circle {
+  width: 100px;
+  border: 4px solid #2D6A4F;
+  border-radius: 25%;
+}
+
+.acindar-logo {
+  width: 15%;
+  height: 16vh;
+  background: url("../../img/brands/acindar-logo.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 1s ease-out;
+}
+
+.acindar-logo:hover {
+  background: url("../../img/brands/acindar-logo-after.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bayer-logo {
+  width: 15%;
+  height: 16vh;
+  background: url("../../img/brands/bayer-logo.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 1s ease-out;
+}
+
+.bayer-logo:hover {
+  background: url("../../img/brands/bayer-logo-after.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.femsa-logo {
+  width: 15%;
+  height: 16vh;
+  background: url("../../img/brands/femsa-logo.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 1s ease-out;
+}
+
+.femsa-logo:hover {
+  background: url("../../img/brands/femsa-logo-after.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nestle-logo {
+  width: 15%;
+  height: 16vh;
+  background: url("../../img/brands/nestle-logo.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 1s ease-out;
+}
+
+.nestle-logo:hover {
+  background: url("../../img/brands/nestle-logo-after.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cargill-logo {
+  background: url("../../img/brands/cargill-logo.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 1s ease-out;
+}
+
+.cargill-logo:hover {
+  background: url("../../img/brands/cargill-logo-after.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.panam-logo {
+  background: url("../../img/brands/panam-logo.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 1s ease-out;
+}
+
+.panam-logo:hover {
+  background: url("../../img/brands/panam-logo-after.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.mondelez-logo {
+  background: url("../../img/brands/mondelez-logo.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 1s ease-out;
+}
+
+.mondelez-logo:hover {
+  background: url("../../img/brands/mondelez-logo-after.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.clorox-logo {
+  background: url("../../img/brands/clorox-logo.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 1s ease-out;
+}
+
+.clorox-logo:hover {
+  background: url("../../img/brands/clorox-logo-after.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.symrise-logo {
+  background: url("../../img/brands/symrise-logo.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 1s ease-out;
+}
+
+.symrise-logo:hover {
+  background: url("../../img/brands/symrise-logo-after.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contact-icon {
+  color: #2D6A4F;
+  font-size: 4vh;
+}
+
+.mail-info {
+  text-decoration: none;
+  color: black;
+}
+
+.custom-service-icon {
+  width: auto;
+  height: auto;
+  border-radius: 25%;
+  background: red;
+}
+
+.custom-mt-services {
+  margin-top: 6vh !important;
+}
+
+.custom-mt {
+  margin-top: 4vh;
+}
+
+.custom-black-bg {
+  background: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+}
+
+.custom-gallery {
+  transition: 0.5s;
+}
+
+.custom-gallery:hover {
+  filter: blur(2px);
+  cursor: pointer;
+}
+
+.modal.show .modal-dialog {
+  width: 90vh;
+}
+
+.modal-body img {
+  max-width: 100%;
+}
+
+.timeline-list {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+/*linea*/
+.timeline-list:before {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 100%;
+  background: rgb(132, 169, 140);
+  background: linear-gradient(0deg, rgb(132, 169, 140) 18%, rgb(167, 193, 172) 57%, rgb(201, 217, 205) 87%);
+  left: 5%;
+}
+
+.timeline-list li {
+  position: relative;
+  display: table;
+}
+
+.timeline-list .timeline_content {
+  position: relative;
+  left: 8%;
+  width: 80%;
+  color: #333;
+  padding: 1vh 0 1vh 0;
+  text-align: left;
+}
+
+.year {
+  font-size: 16px;
+  font-weight: 600;
+  color: #40916C;
+}
+
+.custom-valores li {
+  text-align: left;
+  list-style: none;
+  color: #40916C;
+}
+
+.custom-h1-subtitle {
+  font-size: 3vh;
+}
+
+/*# sourceMappingURL=main.css.map */

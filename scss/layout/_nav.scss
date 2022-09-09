@@ -1,0 +1,29 @@
+.custom-navbar {
+  background-color: #D8F3DC;
+}
+
+.custom-logo {
+  position: relative;
+  margin-top: 1vh;
+  color: #2D6A4F;
+  text-decoration: none;
+  transition-duration: 800ms;
+}
+
+.custom-logo:hover {
+  color: #40916C;
+}
+
+.custom-toggler.navbar-toggler {
+  border: none;
+}
+
+.nav-item > a {
+  color: #2D6A4F;
+  font-size: 14px;
+}
+
+.nav-item > a:hover {
+  color: #40916C;
+  border-bottom: 2px solid #40916C;
+}
