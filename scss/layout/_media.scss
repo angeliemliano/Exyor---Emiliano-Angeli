@@ -5,11 +5,11 @@
 
   .custom-service-image {
     display: none;
-  }
 
-  .custom-gallery:hover {
-  filter: blur(0);
-  cursor: pointer;
+    &:hover {
+      filter: blur(0);
+      cursor: pointer;
+    }
   }
 
   .custom-gallery {

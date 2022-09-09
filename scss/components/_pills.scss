@@ -1,11 +1,23 @@
 .nav-pills .nav-link.active {
-  background: #40916C;
+  background: $green;
   border: none;
   transition: 800ms;
 }
 
-.nav-link:hover {
-  border: none !important;
-  transform: scale(1.05);
-  transition: 800ms;
+.nav-link {
+  &:hover {
+    border: none !important;
+    transform: scale(1.05);
+    transition: 800ms;
+  }
+}
+
+.nav-item > a {
+  color: $green;
+  font-size: 14px;
+
+  &:hover {
+    color: $green-hover;
+    border-bottom: 2px solid $green-hover;
+  }
 }

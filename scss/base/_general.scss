@@ -8,7 +8,7 @@ h1, h3, h4, h5, h6 {
 }
 
 h2 {
-  color: #2D6A4F;
+  color: $green;
   font-family: $title-font
 }
 
@@ -22,7 +22,7 @@ section {
 }
 
 p {
-  color: #464646;
+  color: $text-color;
 }
 
 iframe {
@@ -32,5 +32,5 @@ iframe {
 }
 
 .section-light {
-  background-color: #D8F3DC;
+  background-color: $section-light;
 }

@@ -1,10 +1,15 @@
-.btn-primary {
-  background-color: #40916C;
+.btn-success {
+  background-color: $green;
   border: none;
   transition: 600ms;
+
+  &:hover {
+    background-color: $green-hover;
+    border: none;
+  }
+
+  &:focus {
+    background-color: $green;
+  }
 }
 
-.btn-primary:hover {
-  background-color: #2D6A4F;
-  border: none;
-}

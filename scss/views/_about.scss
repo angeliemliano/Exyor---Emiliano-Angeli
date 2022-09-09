@@ -24,7 +24,7 @@
   position: relative;
   left: 8%;
   width: 80%;
-  color: #333;
+  color: $green;
   padding: 1vh 0 1vh 0;
   text-align: left;
 }
@@ -32,13 +32,13 @@
 .year {
   font-size: 16px;
   font-weight: 600;
-  color: #40916C;
+  color: $green;
 }
 
 .custom-valores li {
   text-align: left;
   list-style: none;
-  color: #40916C;
+  color: $green;
 }
 
 .custom-h1-subtitle {

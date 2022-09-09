@@ -1,9 +1,9 @@
 .custom-icon {
-  color: #2D6A4F;
-}
+  color: $green;
 
-.custom-icon:hover {
-  transform: scale(1.2);
-  transition-duration: 800ms;
-  color: #40916C;
+  &:hover {
+    transform: scale(1.2);
+    transition-duration: 800ms;
+    color: $green-hover;
+  }
 }
