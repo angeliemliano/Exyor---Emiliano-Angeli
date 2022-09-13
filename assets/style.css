@@ -270,12 +270,12 @@ iframe {
 /* --- PORTFOLIO --- */
 
 .custom-mt {
-  margin-top: 4vh !important;
+  margin-top: 4vh;
 }
 
 .custom-black-bg {
   background: rgba(0,0,0, 0.8);
-  overflow: hidden !important;
+  overflow: hidden;
 
 }
 
@@ -289,17 +289,16 @@ iframe {
 }
 
 .modal.show .modal-dialog{
-  width: 50%;
+  width: 90vh;
 }
 
 .modal-body img {
    max-width: 100%;
 }
 
-/* revisar estos important*/
 .nav-pills .nav-link.active {
-  background: #40916C !important;
-  border: none import !important;
+  background: #40916C;
+  border: none;
   transition: 800ms;
 }
 
@@ -432,6 +431,8 @@ footer {
   cursor: pointer ;
 }
 
+
+/* --- MEDIA --- */
 @media (max-width: 992px) {
   #clients-logos {
     display: none;
@@ -449,7 +450,5 @@ footer {
   .custom-gallery {
     pointer-events: none;
   }
-
-
 }
 
