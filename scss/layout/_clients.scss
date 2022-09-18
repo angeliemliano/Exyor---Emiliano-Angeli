@@ -4,131 +4,87 @@
   border-radius: 25%;
 }
 
+
+
 .acindar-logo {
-  width: 15%;
-  height: 16vh;
   background: url("../img/brands/acindar-logo.png");
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  transition: 1s ease-out;
+  @include client-logo;
 
   &:hover {
     background: url("../img/brands/acindar-logo-after.png");
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    @include client-logo-hover;
   }
 }
 
 .femsa-logo {
-  width: 15%;
-  height: 16vh;
   background: url("../img/brands/femsa-logo.png");
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  transition: 1s ease-out;
+  @include client-logo;;
 
   &:hover {
     background: url("../img/brands/femsa-logo-after.png");
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    @include client-logo-hover;
   }
 }
 
 
 .nestle-logo {
-  width: 15%;
-  height: 16vh;
   background: url("../img/brands/nestle-logo.png");
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  transition: 1s ease-out;
+  @include client-logo;
 
   &:hover {
     background: url("../img/brands/nestle-logo-after.png");
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    @include client-logo-hover;
   }
 }
 
 
 .cargill-logo {
   background: url("../img/brands/cargill-logo.png");
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  transition: 1s ease-out;
+  @include client-logo;
 
   &:hover {
     background: url("../img/brands/cargill-logo-after.png");
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    @include client-logo-hover;
   }
 }
 
 .panam-logo {
   background: url("../img/brands/panam-logo.png");
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  transition: 1s ease-out;
+  @include client-logo;
 
   &:hover {
     background: url("../img/brands/panam-logo-after.png");
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    @include client-logo-hover;
   }
 }
 
 .mondelez-logo {
   background: url("../img/brands/mondelez-logo.png");
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  transition: 1s ease-out;
+  @include client-logo;
 
   &:hover {
     background: url("../img/brands/mondelez-logo-after.png");
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    @include client-logo-hover;
   }
 }
 
 .clorox-logo {
   background: url("../img/brands/clorox-logo.png");
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  transition: 1s ease-out;
+  @include client-logo;
 
   &:hover {
     background: url("../img/brands/clorox-logo-after.png");
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    @include client-logo-hover;
   }
 }
 
 .symrise-logo {
   background: url("../img/brands/symrise-logo.png");
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  transition: 1s ease-out;
+  @include client-logo;
 
   &:hover {
     background: url("../img/brands/symrise-logo-after.png");
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    @include client-logo-hover;
   }
 }
 

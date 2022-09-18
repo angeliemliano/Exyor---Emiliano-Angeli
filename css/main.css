@@ -180,9 +180,9 @@ footer {
 }
 
 .acindar-logo {
+  background: url("../img/brands/acindar-logo.png");
   width: 15%;
   height: 16vh;
-  background: url("../img/brands/acindar-logo.png");
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -196,9 +196,9 @@ footer {
 }
 
 .femsa-logo {
+  background: url("../img/brands/femsa-logo.png");
   width: 15%;
   height: 16vh;
-  background: url("../img/brands/femsa-logo.png");
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -212,9 +212,9 @@ footer {
 }
 
 .nestle-logo {
+  background: url("../img/brands/nestle-logo.png");
   width: 15%;
   height: 16vh;
-  background: url("../img/brands/nestle-logo.png");
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -229,6 +229,8 @@ footer {
 
 .cargill-logo {
   background: url("../img/brands/cargill-logo.png");
+  width: 15%;
+  height: 16vh;
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -243,6 +245,8 @@ footer {
 
 .panam-logo {
   background: url("../img/brands/panam-logo.png");
+  width: 15%;
+  height: 16vh;
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -257,6 +261,8 @@ footer {
 
 .mondelez-logo {
   background: url("../img/brands/mondelez-logo.png");
+  width: 15%;
+  height: 16vh;
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -271,6 +277,8 @@ footer {
 
 .clorox-logo {
   background: url("../img/brands/clorox-logo.png");
+  width: 15%;
+  height: 16vh;
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -285,6 +293,8 @@ footer {
 
 .symrise-logo {
   background: url("../img/brands/symrise-logo.png");
+  width: 15%;
+  height: 16vh;
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
