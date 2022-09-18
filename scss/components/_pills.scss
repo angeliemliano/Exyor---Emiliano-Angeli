@@ -1,5 +1,5 @@
 .nav-pills .nav-link.active {
-  background: $green;
+  background: $primary;
   border: none;
   transition: 800ms;
 }
@@ -13,11 +13,11 @@
 }
 
 .nav-item > a {
-  color: $green;
+  color: $primary;
   font-size: 14px;
 
   &:hover {
-    color: $green-hover;
-    border-bottom: 2px solid $green-hover;
+    color: $primary-hover;
+    border-bottom: 2px solid $primary-hover;
   }
 }

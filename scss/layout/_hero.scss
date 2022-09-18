@@ -23,8 +23,8 @@
 
 #hero-rest {
   height: 40vh;
-  background: rgb(64,145,108);
-  background: linear-gradient(90deg, rgba(64,145,108,1) 18%, rgba(101,187,147,1) 57%, rgba(141,205,176,1) 87%);
+  background: rgb(1,58,99);
+  background: linear-gradient(90deg, $primary 0%, $primary-hover 51%, $secondary 100%);
 }
 
 .hero-text-alternative {

@@ -2,24 +2,24 @@
   background-color: $section-light;
 
   .nav-item > a {
-    color: $green;
+    color: $primary;
     font-size: 14px;      
     }
 
   .nav-item > a:hover {
     transform: none;
-    color: $green-hover;
+    color: $primary-hover;
   }
 }
 
 .custom-logo {
   position: relative;
   margin-top: 1vh;
-  color: $green;
+  color: $primary;
   text-decoration: none;
   transition-duration: 800ms;
 
   &:hover {
-    color: $green-hover;
+    color: $primary-hover;
   }
 }

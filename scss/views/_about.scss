@@ -10,8 +10,7 @@
   content: "";
   width: 4px;
   height: 100%;
-  background: rgb(132,169,140);
-  background: linear-gradient(0deg, rgba(132,169,140,1) 18%, rgba(167,193,172,1) 57%, rgba(201,217,205,1) 87%);
+  background: linear-gradient(0deg, $primary 0%, $primary-hover 51%, $secondary 100%);
   left: 5%;
 }
 
@@ -24,7 +23,7 @@
   position: relative;
   left: 8%;
   width: 80%;
-  color: $green;
+  color: $primary;
   padding: 1vh 0 1vh 0;
   text-align: left;
 }
@@ -32,13 +31,13 @@
 .year {
   font-size: 16px;
   font-weight: 600;
-  color: $green;
+  color: $primary;
 }
 
 .custom-valores li {
   text-align: left;
   list-style: none;
-  color: $green;
+  color: $primary;
 }
 
 .custom-h1-subtitle {

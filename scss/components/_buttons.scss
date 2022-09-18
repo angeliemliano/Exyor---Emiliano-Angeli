@@ -1,15 +1,15 @@
 .btn-success {
-  background-color: $green;
+  background-color: $primary;
   border: none;
   transition: 600ms;
 
   &:hover {
-    background-color: $green-hover;
+    background-color: $primary-hover;
     border: none;
   }
 
   &:focus {
-    background-color: $green;
+    background-color: $primary;
   }
 }
 
