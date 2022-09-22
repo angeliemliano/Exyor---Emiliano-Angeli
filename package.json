@@ -1,0 +1,21 @@
+{
+  "name": "exyor---emiliano-angeli",
+  "version": "1.0.0",
+  "description": "Proyecto para CoderHouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass":  "sass -w scss/app.scss css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angeliemliano/Exyor---Emiliano-Angeli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angeliemliano/Exyor---Emiliano-Angeli/issues"
+  },
+  "homepage": "https://github.com/angeliemliano/Exyor---Emiliano-Angeli#readme"
+}

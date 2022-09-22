@@ -1,108 +1,114 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html>
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Exyor - Soluciones industriales</title>
-
-  <!-- GOOGLE FONTS -->
+  <meta name="keywords" content="contacto, direccion, mail, linkedin">
+  <meta name="description" content="Nuestros medios de comunicacion se encuentran disponibles en cualquier momento del dia para satisfacer sus consultas.">
+  <title>Exyor - Contacto</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap" rel="stylesheet">
-
-
-  <!-- ICONS -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css"></i>
   <script src="https://kit.fontawesome.com/0c747d7a79.js" crossorigin="anonymous"></script>
-
-  <!-- CSS -->
-  <link href="../assets/style.css" rel="stylesheet">
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+   <link href="../css/main.css" rel="stylesheet">
 </head>
 
 <body>
-
-  <!-- _____ HEADER _____ -->
-  <header id="header" class="">
-    <div class="header-content">
-        <div class="logo">
-          <a href="../index.html">EXYOR</a>
+  <header id="header" class="fixed-top">
+    <nav id="nav" class="navbar navbar-expand-md navbar-light custom-navbar">
+        <div class="container">
+          <a class="custom-logo" href="../index.html"><h1 class="fw-bold">EXYOR</h1></a>
+          <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#exyor-nav" aria-controls="exyor-nav" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            
+          <div class="collapse navbar-collapse" id="exyor-nav">
+            <ul class="navbar-nav ms-md-auto">
+              <li class="nav-item"><a class="nav-link active fw-semibold" aria-current="page" href="../index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link fw-semibold" href="./about.html">Nosotros</a></li>
+              <li class="nav-item"><a class="nav-link fw-semibold" href="./services.html">Servicios</a></li>
+              <li class="nav-item"><a class="nav-link fw-semibold" href="./portfolio.html">Portfolio</a></li>
+              <li class="nav-item"><a class="nav-link fw-semibold" href="./contact.html">Contacto</a></li>
+            </ul>
+          </div>
         </div>
-        <nav id="navbar" class="">
-          <ul>
-            <li>
-              <a class="" href="../index.html">Home</a>
-            </li>
-            <li>
-              <a class="" href="./services.html">Servicios</a>
-              </li>
-            <li>
-              <a class="" href="./about.html">Nosotros</a>
-            </li>
-            <li>
-              <a class="" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li>
-              <a class="" href="./contact.html">Contacto</a>
-            </li>
-           </ul>
-        </nav>
-    </div>
+      </nav> 
   </header>
 
-  <!-- _____ HERO _____ -->
-  	<section id="contact-hero" class="">
-  	</section>
+  <section id="hero-rest" class="container-fluid mb-6">
+      <div class="hero-text-container">
+        <h1 class="hero-text-alternative">CONTACTO</h1>
+      </div>
+  </section>
 
-<main id="main">
-	<section id="contact">
-		<div class="section-title">
-	      <h2>Contactanos!</h2> 
-	      <p>Estamos abiertos a cualquier sugerencia o simplemente para tener una charla.</p>
-	    </div>
+  <section class="container pb-3">
+    <div class="row">
+      <div class="col-lg-4 col-sm-12">
+        <div class="row">
+          <div class="col-2 mt-3"><i class="fa-solid fa-location-dot contact-icon"></i></div>
+            <div class="col-10">
+              <h5 class="mb-0 mt-3">Jose marti 3376, san justo</h5>
+              <p class="text-muted mt-0 mb-2">Buenos Aires, Argentina</p>
+           </div>
 
-      <div class="exyor-info-wrapper">
-        <div class="exyor-info">
-          <i class="fa-solid fa-location-dot"></i>
-          <span><a href="https://goo.gl/maps/7XESfNDzVYxTmn1K6" target="_blank">El Salvador 5218, CP 1414</a></span>
-        </div>
+           <div class="col-2 mt-4"><i class="fa-solid fa-phone contact-icon"></i></div>
+            <div class="col-10">
+              <h5 class="mb-0 mt-3">+54 11 1234 5678</h5>
+              <p class="text-muted mt-0 mb-2">Lunes a Viernes de 8 a 17</p>
+           </div>
 
-        <div class="exyor-info">
-          <i class="fa-solid fa-phone"></i>
-          <span>+54 11 1234 5678</span>
-        </div>
-
-        <div class="exyor-info">
-          <i class="fa-solid fa-at"></i>
-          <span><a href="mailto: info@exyor.com.ar" target="_blank">info@exyor.com.ar</a></span>
+           <div class="col-2 mt-2"><i class="fa-solid fa-envelope contact-icon"></i></div>
+            <div class="col-10">
+              <a class="mail-info" href="mailto:comercial@exyorsrl.com.ar"><h5 class="mb-3 mt-3">comercial@exyorsrl.com.ar</h5></a>
+           </div>
         </div>
       </div>
-	    
-
-
-	    <!--<form>
-		</form>-->
-
-		<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=El%20Salvador%205218&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" ></iframe>
-	</section>  	
-</main>
-
-  <!-- _____ FOOTER _____ -->
-  <footer id="footer">
-    <div class="container">
-      <h3>EXYOR</h3>
-      <p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Ad, rerum perspiciatis animi est adipisci, reiciendis distinctio architecto at ex quis accusamus molestias maxime, rem itaque numquam eaque pariatur omnis laudantium. .</p>
-      <div class="social-media">
-        <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
-        <a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+      <div class="col-lg-4 col-sm-12">
+        <h5 class="mt-3">Nombre</h5>
+        <input class="common-input form-control mb-6" placeholder="Nombre" type="text">
+        <h5 class="mt-3">Mail</h5>
+        <input class="common-input form-control mb-10" placeholder="Mail" type="text">
+        <h5 class="mt-3">Asunto</h5>
+        <input class="common-input form-control mb-10" placeholder="Asunto" type="text">
       </div>
-    </div>
+      <div class="col-lg-4 col-sm-12 form-group">
+        <h5 class="mt-3">Mensaje</h5>
+        <textarea class="common-text-area form-control" placeholder="Escriba su mensaje" rows="8" name="message"></textarea>
+      </div>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end col-12 mt-4">
+        <button type="button" class="btn btn-success custom-button">Enviar</button>
+      </div>
+    </div>    
+  </section>
+
+  <section class="container pt-0">
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.222782771268!2d-58.545645684235126!3d-34.67432636874574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc89ab194814f%3A0x46c6f543c0e680ed!2sJos%C3%A9%20Mart%C3%AD%203376%2C%20B1754BTN%20San%20Justo%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1662430051267!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <footer>
+    <section class="container">
+      <div class="row">
+        <div class="col-lg-10 col-sm-12">
+         <a href="../index.html" class="text-left custom-logo-footer"><h1>EXYOR</h1></a>
+          <p class="custom-text-footer">Somos una empresa líder en soluciones técnicas industriales. Optimizamos el rendimiento de nuestros clientes y colaboramos para maximizar el retorno de inversión en cada planta donde intervenimos.</p>
+        </div>
+        <div class="col-lg-2 col-sm-12">
+          <div class="row">
+            <div class="col-3 custom-social-media"><i class="fa-brands fa-linkedin-in"></i></div>
+            <div class="col-3 custom-social-media"><i class="fa-brands fa-instagram"></i></div>
+            <div class="col-3 custom-social-media"><i class="fa-brands fa-twitter"></i></div>
+            <div class="col-3 custom-social-media"><i class="fa-brands fa-facebook"></i></div>
+          </div>
+        </div>
+      </div>      
+    </section>
   </footer>
-
-
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
+
 
 </html>

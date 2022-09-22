@@ -1,0 +1,14 @@
+@mixin client-logo{
+  width: 15%;
+  height: 16vh;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 1s ease-out;
+}
+
+@mixin client-logo-hover{
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

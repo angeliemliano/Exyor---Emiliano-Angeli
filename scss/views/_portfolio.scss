@@ -1,0 +1,27 @@
+.custom-mt {
+  margin-top: 4vh;
+}
+
+.custom-black-bg {
+  background: rgba(0,0,0, 0.8);
+  overflow: hidden;
+}
+
+.custom-gallery {
+  transition: 0.5s;
+
+  &:hover {
+    filter: blur(2px);
+    cursor: pointer;
+  }
+}
+
+.modal.show .modal-dialog{
+  width: 90vh;
+}
+
+.modal-body {
+  img {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,35 @@
+#hero {
+  height: 100vh;
+  background: url("../img/hero-bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+
+  h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: $section-light;
+    text-shadow:  0px 4px 3px rgba(200,200,200,0.3),
+                  0px 8px 13px rgba(200,200,200,0.1),
+                  0px 18px 23px rgba(200,200,200,.1);
+  }
+}
+
+.hero-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#hero-rest {
+  height: 40vh;
+  background: rgb(1,58,99);
+  background: linear-gradient(90deg, $primary 0%, $primary-hover 51%, $secondary 100%);
+}
+
+.hero-text-alternative {
+  position: relative;
+  top: 5vh;
+  font-size: 8vh;
+  color: white;
+}

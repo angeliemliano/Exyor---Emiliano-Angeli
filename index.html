@@ -4,129 +4,144 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="keywords" content="industria, cintas, ingenieria, soluciones, racks">
+  <meta name="description" content="Desarrollamos soluciones industriales de ingenieria para todos los rubros. Proyectos llave en mano, desde el diseño hasta la post-venta.">
   <title>Exyor - Soluciones industriales</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css"></i>
   <script src="https://kit.fontawesome.com/0c747d7a79.js" crossorigin="anonymous"></script>
-  <link href="./assets/style.css" rel="stylesheet">
+  <link href="./css/main.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 
 <body>
 
-  <header id="header" class="">
-    <div class="header-content">
-        <div class="logo">
-          <a href="#hero">EXYOR</a>
+  <header id="header" class="fixed-top">
+    <nav id="nav" class="navbar navbar-expand-md navbar-light custom-navbar">
+      <div class="container">
+        <a class="custom-logo" href="./index.html"><h1 class="fw-bold">EXYOR</h1></a>
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#exyor-nav" aria-controls="exyor-nav" aria-expanded="false">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          
+        <div class="collapse navbar-collapse" id="exyor-nav">
+          <ul class="navbar-nav ms-md-auto">
+            <li class="nav-item"><a class="nav-link active fw-semibold" aria-current="page" href="./index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link fw-semibold" href="./pages/about.html">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link fw-semibold" href="./pages/services.html">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link fw-semibold" href="./pages/portfolio.html">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link fw-semibold" href="./pages/contact.html">Contacto</a></li>
+          </ul>
         </div>
-        <nav id="navbar" class="">
-          <ul>
-            <li>
-              <a class="" href="#hero">Home</a>
-            </li>
-            <li>
-              <a class="" href="./pages/services.html">Servicios</a>
-              </li>
-            <li>
-              <a class="" href="./pages/about.html">Nosotros</a>
-            </li>
-            <li>
-              <a class="" href="./pages/portfolio.html">Portfolio</a>
-            </li>
-            <li>
-              <a class="" href="./pages/contact.html">Contacto</a>
-            </li>
-           </ul>
-        </nav>
-    </div>
+      </div>
+    </nav> 
   </header>
 
-  <section id="hero" class="">
-        <div class="hero-text-container">
-          <h1>Soluciones industriales</h1>
+  <section id="hero" class="container-fluid">
+    <div class="hero-text-container">
+      <h1>Soluciones industriales</h1>
+    </div>
+  </section>
+
+  <main>
+    
+    <section id="services" class="container">
+      <h2 class="text-left">Servicios</h2>
+        <div class="row px-4">
+          <div class="col-lg-4 col-md-4 col-sm-12 mt-5 text-center">
+            <div class="mb-4"><i class="fa-solid fa-box-open fs-1 custom-icon"></i></div>
+            <h4>Racks y medios de embalaje</h4>
+            <p>Brindamos servicios de fabricación y montaje de racks metálicos industriales con gran capacidad de adaptación para diversas superficies y las necesidades de cada proyecto. Fabricamos con la más avanzada tecnología en construcción en acero estructural de la más alta calidad.</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 mt-5 text-center">
+            <div class="mb-4"><i class="fa-solid fa-screwdriver-wrench fs-1 custom-icon"></i></div>
+            <h4>Ingeniería y desarrollo</h4>
+            <p>Desarrolamos proyectos llave en mano de variada complejidad. Diseñamos con software especializado para ingeniería y construimos lo necesario con nuestra completa gama de máquinas, realizamos el montaje y nos encargamos de la puesta en marcha con personal especializado. </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 mt-5 text-center">
+            <div class="mb-4"><i class="fa-solid fa-tape fs-1 custom-icon"></i></div>
+            <h4>Cintas transportadoras</h4>
+            <p>Nuestra empresa fabrica diversos tipos de transportes para que su utilización sea apropiada en diferentes industrias. Se pueden transportar todo tipo de materiales. Según el requerimiento de cada cliente: nos ocupamos del diseño, fabricación, instalación y puesta en marcha de nuestros equipos.</p>
+          </div>
+        </div>
+
+    </section>
+      
+    <section id="clients-testimonials" class="container">
+      <h2 class="text-left">Nuestros clientes</h2>
+        <div class="row px-4">
+          <div class="col-md-6 col-sm-12">
+            <div class="row py-4">
+              <div class="col-md-4 col-sm-12 text-center">
+                <img src="./img/client-men.png" class="rounded-circle" >
+                <h5 class="mt-3 mb-0">Maria Nuñez</h5>
+                <h6>Gerente de compras</h6>
+              </div>
+              <div class="col-md-8 col-sm-12">
+                <p>Trabajamos hace varios años con Exyor y la verdad los recomiendo, excelente atención, profesionalismo y el equipamiento de última tecnología</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-12">
+            <div class="row py-4">
+              <div class="col-md-4 col-sm-12 text-center">
+                <img src="./img/client-men.png" class="rounded-circle" >
+                <h5 class="mt-3 mb-0">Mariano Paez</h5>
+                <h6>Gerente de mantenimiento</h6>
+              </div>
+              <div class="col-md-8 col-sm-12">
+                <p>La experiencia de trabajar con la firma es muy buena y con resultados exitosos. Todos los miembros del equipo de trabajo tienen muy buena predisposición y comprobable expertise</p>
+              </div>
+            </div>
+          </div>
+        </div>  
+    </section>
+
+    <section id="clients-logos" class="container-fluid py-1 section-light">
+      <div class="container">
+        <div class="row clients-wrapper">
+          <div class="col-lg-1 acindar-logo"></div>
+          <div class="col-lg-1 femsa-logo"></div>
+          <div class="col-lg-1 nestle-logo"></div>
+          <div class="col-lg-1 cargill-logo"></div>
+          <div class="col-lg-1 panam-logo"></div>
+          <div class="col-lg-1 mondelez-logo"></div>
+          <div class="col-lg-1 clorox-logo"></div>
+          <div class="col-lg-1 symrise-logo"></div>
+          <div class="col-lg-1 nestle-logo"></div>
+          <div class="col-lg-1 mondelez-logo"></div>
+          <div class="col-lg-1 femsa-logo"></div>
+          <div class="col-lg-1 acindar-logo"></div>
         </div>
       </div>
-    </div>
-  </section>
+      
+    </section>
 
-<main id="main">
+  </main>
 
-  <section id="services">
-    <div class="section-title">
-      <h2>Servicios</h2>  
-    </div>
-
-    <div class="grid-service-container">
-      <div id="titulo1" class="grid-service-title">
-        <div class="service-logo"><i class="fa-solid fa-box-open"></i></div>
-        <h2>Racks y medios de embalaje</h2>
-      </div>
-      <div id="titulo2" class="grid-service-title">
-        <div class="service-logo"><i class="fa-solid fa-screwdriver-wrench"></i></div>
-        <h2>Ingeniería y desarrollo</h2>
-      </div>
-      <div id="titulo3" class="grid-service-title">
-        <div class="service-logo"><i class="fa-solid fa-tape"></i></div>
-        <h2>Cintas transportadoras</h2>
-      </div>
-      <div id="servicio1" class="grid-service-content">
-        <p>Desarrollo, fabricación, actualización y adaptación de racks y medios de embalaje. <br>A medida del requerimiento de cada usuario y necesidad</p>
-      </div>
-      <div id="servicio2" class="grid-service-content">
-        <p>La necesidad de la mejora continua nos llevo a implementar planes juntos a nuestros clientes para optimizar beneficios y confiabilidad</p>
-      </div>
-      <div id="servicio3" class="grid-service-content">
-        <p>Creamos cintas/bandas transportadoras a medida que se adecuen perfectamente a sus necesidades.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="clients">
-    <div class="section-title">
-        <h2>Nuestros clientes</h2>  
-      </div>
-
-    <div class="clients-wrapper">
-      <div class="client-testimonial">
-        <div class="client-photo"></div>
-        <p class="client-name">John Doe</p>
-        <p class="client-job">Gerente de compras - Femsa Argentina</p>
-        <p class="client-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ea totam doloribus quo animi optio minima provident aliquid. Ipsa inventore doloribus quaerat ex, iusto. Reiciendis a cum quibusdam tenetur enim!</p>
-      </div>
-      <div class="client-testimonial">
-        <div class="client-photo2"></div>
-        <p class="client-name">Jane Doe</p>
-        <p class="client-job">Gerente de mantenimiento - Acindar</p>
-        <p class="client-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ea totam doloribus quo animi optio minima provident aliquid. Ipsa inventore doloribus quaerat ex, iusto. Reiciendis a cum quibusdam tenetur enim!</p>
-      </div>
-    </div>
-
-    <div class="clients-wrapper">
-      <div class="acindar-logo"></div>
-      <div class="femsa-logo"></div>
-      <div class="nestle-logo"></div>
-      <div class="cargill-logo"></div>
-      <div class="panam-logo"></div>
-      <div class="vw-logo"></div>
-    </div>
-  </section>
-</main>
-
-  <footer id="footer">
-    <div class="container">
-      <h3>EXYOR</h3>
-      <p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Ad, rerum perspiciatis animi est adipisci, reiciendis distinctio architecto at ex quis accusamus molestias maxime, rem itaque numquam eaque pariatur omnis laudantium. .</p>
-      <div class="social-media">
-        <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
-        <a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
-      </div>
-    </div>
+  <footer>
+    <section class="container">
+      <div class="row">
+        <div class="col-lg-10 col-sm-12">
+         <a href="#hero" class="text-left custom-logo-footer"><h1>EXYOR</h1></a>
+          <p class="custom-text-footer">Somos una empresa líder en soluciones técnicas industriales. Optimizamos el rendimiento de nuestros clientes y colaboramos para maximizar el retorno de inversión en cada planta donde intervenimos.</p>
+        </div>
+        <div class="col-lg-2 col-sm-12">
+          <div class="row">
+            <div class="col-3 custom-social-media"><i class="fa-brands fa-linkedin-in"></i></div>
+            <div class="col-3 custom-social-media"><i class="fa-brands fa-instagram"></i></div>
+            <div class="col-3 custom-social-media"><i class="fa-brands fa-twitter"></i></div>
+            <div class="col-3 custom-social-media"><i class="fa-brands fa-facebook"></i></div>
+          </div>
+        </div>
+      </div>      
+    </section>
   </footer>
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 
 </html>
