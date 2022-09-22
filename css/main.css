@@ -69,6 +69,22 @@ iframe {
   background-color: #deedf6;
 }
 
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #61A5C2;
+}
+
 .custom-navbar {
   background-color: #deedf6;
 }
