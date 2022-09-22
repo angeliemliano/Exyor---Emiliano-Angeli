@@ -1,0 +1,25 @@
+.custom-navbar {
+  background-color: $section-light;
+
+  .nav-item > a {
+    color: $primary;
+    font-size: 14px;      
+    }
+
+  .nav-item > a:hover {
+    transform: none;
+    color: $primary-hover;
+  }
+}
+
+.custom-logo {
+  position: relative;
+  margin-top: 1vh;
+  color: $primary;
+  text-decoration: none;
+  transition-duration: 800ms;
+
+  &:hover {
+    color: $primary-hover;
+  }
+}

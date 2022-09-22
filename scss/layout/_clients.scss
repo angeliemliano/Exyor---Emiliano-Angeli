@@ -1,0 +1,90 @@
+.rounded-circle {
+  width: 100px;
+  border: 4px solid $primary;
+  border-radius: 25%;
+}
+
+
+
+.acindar-logo {
+  background: url("../img/brands/acindar-logo.png");
+  @include client-logo;
+
+  &:hover {
+    background: url("../img/brands/acindar-logo-after.png");
+    @include client-logo-hover;
+  }
+}
+
+.femsa-logo {
+  background: url("../img/brands/femsa-logo.png");
+  @include client-logo;;
+
+  &:hover {
+    background: url("../img/brands/femsa-logo-after.png");
+    @include client-logo-hover;
+  }
+}
+
+
+.nestle-logo {
+  background: url("../img/brands/nestle-logo.png");
+  @include client-logo;
+
+  &:hover {
+    background: url("../img/brands/nestle-logo-after.png");
+    @include client-logo-hover;
+  }
+}
+
+
+.cargill-logo {
+  background: url("../img/brands/cargill-logo.png");
+  @include client-logo;
+
+  &:hover {
+    background: url("../img/brands/cargill-logo-after.png");
+    @include client-logo-hover;
+  }
+}
+
+.panam-logo {
+  background: url("../img/brands/panam-logo.png");
+  @include client-logo;
+
+  &:hover {
+    background: url("../img/brands/panam-logo-after.png");
+    @include client-logo-hover;
+  }
+}
+
+.mondelez-logo {
+  background: url("../img/brands/mondelez-logo.png");
+  @include client-logo;
+
+  &:hover {
+    background: url("../img/brands/mondelez-logo-after.png");
+    @include client-logo-hover;
+  }
+}
+
+.clorox-logo {
+  background: url("../img/brands/clorox-logo.png");
+  @include client-logo;
+
+  &:hover {
+    background: url("../img/brands/clorox-logo-after.png");
+    @include client-logo-hover;
+  }
+}
+
+.symrise-logo {
+  background: url("../img/brands/symrise-logo.png");
+  @include client-logo;
+
+  &:hover {
+    background: url("../img/brands/symrise-logo-after.png");
+    @include client-logo-hover;
+  }
+}
+

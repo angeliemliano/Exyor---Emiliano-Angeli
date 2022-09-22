@@ -1,0 +1,9 @@
+.custom-icon {
+  color: $primary;
+
+  &:hover {
+    transform: scale(1.2);
+    transition-duration: 800ms;
+    color: $primary-hover;
+  }
+}

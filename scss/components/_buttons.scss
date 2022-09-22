@@ -1,0 +1,15 @@
+.btn-success {
+  background-color: $primary;
+  border: none;
+  transition: 600ms;
+
+  &:hover {
+    background-color: $primary-hover;
+    border: none;
+  }
+
+  &:focus {
+    background-color: $primary;
+  }
+}
+
