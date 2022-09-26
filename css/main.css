@@ -346,6 +346,19 @@ footer {
   margin-top: 6vh;
 }
 
+.custom-li {
+  list-style: none;
+}
+
+.custom-li:before {
+  content: "\f013";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  margin-right: 1em;
+  width: 1.3em;
+}
+
 .custom-mt {
   margin-top: 4vh;
 }
