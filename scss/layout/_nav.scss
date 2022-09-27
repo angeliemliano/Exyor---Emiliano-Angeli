@@ -1,15 +1,56 @@
-.custom-navbar {
-  background-color: $section-light;
+nav {
+  margin: 0 auto;
+  background: white;
 
-  .nav-item > a {
-    color: $primary;
-    font-size: 14px;      
+
+  ul {
+    list-style: none;
+    text-align: center;
+
+    li {
+      display: inline-block;
+     
+      a {
+        display: block;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin: 0 10px;
+        transition: all .8s;
+        position: relative;        
+
+
+        &:after { 
+          transition: all .8s;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
+          width: 0%;
+          content: '';
+          color: transparent;
+          background: $secondary;
+          height: 2px;
+        }
+
+        &:before {
+          transition: all .8s;
+        }
+
+        &:hover {
+          color: $secondary;
+        }
+
+        &:hover:after {
+          width: 100%;
+        }
+      }
     }
-
-  .nav-item > a:hover {
-    transform: none;
-    color: $primary-hover;
   }
+}
+
+.nav-link:hover {
+  transform: scale(1);
 }
 
 .custom-logo {

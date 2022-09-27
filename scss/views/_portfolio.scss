@@ -11,7 +11,10 @@
   transition: 0.5s;
 
   &:hover {
-    filter: blur(2px);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(90%);
+    -webkit-transition: .6s ease-in-out;
+    transition: .6s ease-in-out;
     cursor: pointer;
   }
 }
