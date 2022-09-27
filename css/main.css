@@ -84,6 +84,27 @@ iframe {
   background: #61A5C2;
 }
 
+#back-to-top {
+  display: inline-block;
+  background-color: #013A63;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  border: none;
+  position: fixed;
+  bottom: 2vh;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+#back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
 nav {
   margin: 0 auto;
   background: white;
@@ -187,6 +208,11 @@ nav ul li a:hover:after {
   }
   .custom-gallery {
     pointer-events: none;
+  }
+}
+@media (min-width: 992px) {
+  #back-to-top {
+    display: none;
   }
 }
 footer {
