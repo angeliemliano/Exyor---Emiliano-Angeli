@@ -108,6 +108,7 @@ iframe {
 nav {
   margin: 0 auto;
   background: white;
+  border-bottom: 1px solid #61A5C2;
 }
 nav ul {
   list-style: none;
